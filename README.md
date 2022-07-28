@@ -7,3 +7,6 @@ HTML / CSS / JAVASCRIPT
 Normalize CSS
 
 Responsive
+
+
+- Live Site URL: [https://jdiabi.github.io/meril-landing-page/](https://jdiabi.github.io/meril-landing-page/)
