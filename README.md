@@ -7,3 +7,5 @@ HTML / CSS / JAVASCRIPT
 Normalize CSS
 
 Responsive
+
+Démo du site : https://jdiabi.github.io/meril-landing-page/
