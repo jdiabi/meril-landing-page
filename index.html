@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="fr" lang="fr">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Meril - test intégration web</title>
+    <meta name="description" content="Test technique - intégration template Meril" />
+    <meta name="keywords" content="maquette" />
+    <meta name="author" content="Julie Diabinho">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/noframework.waypoints.min.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#home">
+                <ul>
+                    <li class="title">M</li>
+                    <li class="title">e</li>
+                    <li class="title">r</li>
+                    <li class="title">i</li>
+                    <li class="title">l</li>
+                </ul>
+            </a>
+            <ul>
+                <li><a class="home active" href="#home">Home</a></li>
+                <li><a class="about" href="#product">About us</a></li>
+                <li><a class="features" href="#features">Features</a></li>
+                <li><a class="fees" href="#fees">Fees</a></li>
+                <li><a class="contactus" href="#contact">Contact us</a></li>
+            </ul>
+            <div>
+                <a href="#trial">Start Free Trial</a>
+                <a href="#">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="30px" fill="#fff">
+                    <path d="M0 0h24v24H0V0z" fill="none" />
+                    <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                    </svg>
+                </a>
+            </div>
+        </nav>
+        <button class="ham">
+            <span class="menuIcon">
+                <img src="icons/MenuBurger.svg">
+            </span>
+            <span class="xIcon">
+                <img src="icons/Cross.svg" width="40px">
+            </span>
+        </button>
+        <ul class="menu">
+            <li>
+                <a class="title" href="#">
+                    <ul>
+                        <li class="title">M</li>
+                        <li class="title">e</li>
+                        <li class="title">r</li>
+                        <li class="title">i</li>
+                        <li class="title">l</li>
+                    </ul>
+                </a>
+            </li>
+            <li><a class="menuLink homeM active" href="#">Home</a></li>
+            <li><a class="menuLink aboutM" href="#product">About us</a></li>
+            <li><a class="menuLink featuresM" href="#features">Features</a></li>
+            <li><a class="menuLink feesM" href="#fees">Fees</a></li>
+            <li><a class="menuLink contactusM" href="#contact">Contact us</a></li>
+            <ul>
+                <li><a href="#trial">Start Free Trial</a></li>
+                <li>
+                    <a href="/">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" height="30px" width="30px" fill="#fff">
+                        <path d="M0 0h24v24H0V0z" fill="none" />
+                        <path d="M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z" />
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+        </ul>
+    </header>
+    <main id="home">
+        <section class="landing-page">
+            <div class="LPbouton">
+                <p class="LPtext1">Secure, Scalable And Supported</p>
+                <h2 class="LPtext2">Beautiful & Intuitive</h2>
+                <a href="#trial">Start Free Trial</a>
+            </div>
+            <figure>
+                <img src=images/Image1.jpg>
+            </figure>
+        </section>
+        <section id="product" class="product">
+            <div class="Ptext1">
+                <h2 >Our Product</h2>
+                <svg width="300" height="7" viewBox="0 0 59 2" fill="#fece00" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="1" y1="1" x2="58" y2="1" stroke="#fece00" stroke-width="2" stroke-linecap="round" />
+                </svg>
+            </div>
+            <article>
+                <div class="card">
+                    <figure>
+                        <img src="images/AssetManagement.jpg" width="417px" height="263px">
+                    </figure>
+                    <div>
+                        <h4>Asset Management</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                        <a href="/">learn more...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="images/Dashboard.jpg" width="417px" height="263px">
+                    </figure>
+                    <div>
+                        <h4>Dashboard</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                        <a href="/">learn more...</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <figure>
+                        <img src="images/UserManagement.jpg" width="417px" height="263px">
+                    </figure>
+                    <div>
+                        <h4>User Management</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                        </p>
+                        <a href="/">learn more...</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="features" class="checklist">
+            <article>
+                <div class="CLlist">
+                    <ul>
+                        <li><img src="icons/CheckValid.svg" width="50px" height="50px">
+                            <div>
+                                <h4>Asset Management</h4>
+                                <p>Best in class asset management comes standard.</p>
+                            </div>
+                        </li>
+                        <li><img src="icons/CheckValid.svg" width="50px" height="50px">
+                            <div>
+                                <h4>User Management</h4>
+                                <p>Define user groups, and optionally allow public user registration.</p>
+                            </div>
+                        </li>
+                        <li><img src="icons/CheckValid.svg" width="50px" height="50px">
+                            <div>
+                                <h4>Dashboard</h4>
+                                <p>Bug fixes, security enhancements with one-click updating.</p>
+                            </div>
+                        </li>
+                        <li><img src="icons/CheckValid.svg" width="50px" height="50px">
+                            <div>
+                                <h4>Account Management</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </article>
+        </section>
+        <section id="trial" class="trial">
+            <article>
+                <figure>
+                    <img class="img1" src="images/Gallery1.jpg">
+                    <img class="img2" src="images/Gallery2.jpg">
+                    <img class="img3" src="images/Gallery3.jpg">
+                    <img class="img4" src="images/Gallery5.jpg">
+                    <img class="img5" src="images/Gallery4.jpg">
+                </figure>
+                <div>
+                    <div class="Tbouton">
+                        <h5 class="Ttext1">Secure, Scalable And Supported</h5>
+                        <p class="Ttext2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
+                        <a href="#trial">Start Free Trial</a>
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section id="fees" class="icon">
+            <article>
+                <div class="Fleft">
+                    <div class="logo">
+                        <img src="icons/SketchIcon.svg">
+                    </div>
+                    <div class="logo">
+                        <img src="icons/InvisonIcon.svg">
+                    </div>
+                </div>
+                <figure class="Fcenter">
+                    <img src="images/MobileView.jpg">
+                </figure>
+                <div class="Fright">
+                    <div class="logo">
+                        <img src="icons/MarvelIcon.svg">
+                    </div>
+                    <div class="logo">
+                        <img src="icons/FigmaIcon.svg">
+                    </div>
+                </div>
+            </article>
+        </section>
+        <section class="meril">
+            <article>
+                <div class="Mtext1">
+                    <p>Meril has everything you need to bring ideas to life and transform how you create digital
+                        products. Placing the power of design in everyone's hands.</p>
+                    <img src="images/Invison.jpg" height="100px">
+                </div>
+                <figure class="Mimg"><img src="images/Gallery4.jpg"></figure>
+            </article>
+        </section>
+        <section id="contact" class="contact">
+            <form action="mailto:exemple@gmail.com">
+                <label for="email">Ready to get started ?</label>
+                <div>
+                    <input type="email" id="email" name="email" placeholder="Write Your Email" required>
+                    <button type="submit" value="">Get started</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-social">
+            <a href="#">
+                <ul>
+                    <li class="meriltext">M</li>
+                    <li class="meriltext">e</li>
+                    <li class="meriltext">r</li>
+                    <li class="meriltext">i</li>
+                    <li class="meriltext">l</li>
+                </ul>
+            </a>
+            <p>2022 © All rights reserved</p>
+            <ul>
+                <li><a href="https://facebook.com"><img src="icons/FacebookIcon.svg" width="20px" height="20px"></a></li>
+                <li><a href="https://google.com"><img src="icons/googleIcon.svg" width="20px" height="20px"></a></li>
+                <li><a href="https://twitter.com"><img src="icons/TwitterIcon.svg" width="20px" height="20px"></a></li>
+                <li><a href="https://youtube.com"><img src="icons/YoutubeIcon.svg" width="20px" height="20px"></a></li>
+            </ul>
+        </div>
+        <div class="footer-company">
+            <h4>Company</h4>
+            <ul>
+                <li><a href="about">About</a></li>
+                <li><a href="/">Security & Privacy</a></li>
+                <li><a href="/">Careers</a></li>
+                <li><a href="/">Blog</a></li>
+            </ul>
+        </div>
+        <div class="footer-product">
+            <h4>Product</h4>
+            <ul>
+                <li><a href="features">Features</a></li>
+                <li><a href="product">Explore</a></li>
+                <li><a href="/">Pricing</a></li>
+                <li><a href="/">Apps</a></li>
+                <li><a href="/">For iOS</a></li>
+            </ul>
+        </div>
+        <div class="footer-about">
+            <h4>About</h4>
+            <ul>
+                <li><a href="/">Stories</a></li>
+                <li><a href="/">About Us</a></li>
+                <li><a href="/">Blog</a></li>
+                <li><a href="/">Careers</a></li>
+            </ul>
+        </div>
+        <div class="footer-bits">
+            <h4>Bits</h4>
+            <ul>
+                <li><a href="/">Help Center</a></li>
+                <li><a href="/">Entreprise</a></li>
+                <li><a href="/">Terms of Service</a></li>
+                <li><a href="/">Privacy</a></li>
+                <li><a href="/">Security</a></li>
+            </ul>
+        </div>
+    </footer>
+</body>
+<script src="main.js"></script>
+
+</html>
