@@ -6,4 +6,4 @@ Normalize CSS
 
 Responsive
 
-Live Site URL: https://jdiabi.github.io/single-page-design-portfolio/
+Live Site URL: https://jdiabi.github.io/meril-landing-page/
